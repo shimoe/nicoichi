@@ -23,8 +23,8 @@
 /* -------------------------------------
    グローバル変数
 ------------------------------------- */
-float omega = 0;
-float Vel = 0.035;
+float omega = 0;  //角速度の目標値
+float Vel = 0.035;  //並進速度の目標値
 
 
 /* -------------------------------------
@@ -41,7 +41,7 @@ volatile int LastR_ENC_PHASE_B; // 上り降りで代入
 volatile float VelR = 0; // 現在の右輪の速度[m/s]
 volatile unsigned long LastTimeR = 0; // 前回角速度を計測した時の絶対時刻
 volatile unsigned long ElapsedTimeR = 0; // 経過時間
-float ComVelR = 0; //速度の目標値[m/s]
+float ComVelR = 0; //右輪速度の目標値[m/s]
 unsigned int inputR = 0; //速度の操作量[m/s]
 float max_VelR = 0;  //速度の最大値[m/s]
 
@@ -59,7 +59,7 @@ volatile int LastL_ENC_PHASE_B; // 上り降りで代入
 volatile float VelL = 0; // left速度
 volatile unsigned long LastTimeL = 0; // 前回角速度を計測した時の絶対時刻
 volatile unsigned long ElapsedTimeL = 0; // 経過時間
-float ComVelL = 0;  //速度の目標値[m/s]
+float ComVelL = 0;  //左輪速度の目標値[m/s]
 unsigned int inputL = 0;  //速度の操作量[m/s]
 float max_VelL = 0;  //速度の最大値[m/s]
 

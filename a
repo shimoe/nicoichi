@@ -1,0 +1,16 @@
+[33mcommit b3613b22b3fe77e46f1f02257990e452f7c2796d[m
+Author: Kouta Shimomatsubae <o104064k@mail.kyutech.jp>
+Date:   Sat Dec 6 12:38:29 2014 +0900
+
+    define部分の変数名の変更、コメントの追加を行った。
+
+[33mcommit a8af50fb110f506ee7462b0ada9f85fb9ea4c363[m
+Author: Kouta Shimomatsubae <o104064k@mail.kyutech.jp>
+Date:   Fri Dec 5 21:58:21 2014 +0900
+
+    ニコイチを数学モデルに基づいて書いた。
+    入力は並進速度と角速度である。
+    参考にしたサイトは以下の通り。
+    次はコメントを増やしたりパラメータ調整を行う予定。
+    最終的にはROSを使って開発する予定。
+    http://www.mech.tohoku-gakuin.ac.jp/rde/contents/course/robotics/wheelrobot.html
